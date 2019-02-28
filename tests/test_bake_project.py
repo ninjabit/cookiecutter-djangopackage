@@ -68,7 +68,6 @@ def test_models(cookies):
         assert 'TimeStampedModel' in model_txt
 
 
-
 def test_views_with_models(cookies):
     """
     Test case to assert if the views are created when the models are passed
@@ -260,8 +259,8 @@ def test_app_config(cookies):
         readme_text = readme_file.read()
         assert "'cookie_lover.apps.CookieLoverConfig'," in readme_text
 
-# example project tests from here on
 
+# example project tests from here on
 def test_make_migrations(cookies):
     """generated project should be able to generate migrations"""
     with bake_in_temp_dir(cookies, extra_context={}) as result:
