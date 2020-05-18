@@ -1,7 +1,7 @@
 {
-  "full_name": "Your full name here",
-  "email": "you@example.com",
-  "github_username": "yourname",
+  "full_name": "Tobia Ghiraldini",
+  "email": "tobia.ghiraldini@ninjabit.com",
+  "github_username": "ninjabit",
   "project_name": "Django Package",
   "repo_name": "dj-package",
   "app_name": "{{ cookiecutter.repo_name.lower()|replace(' ', '_')|replace('-', '_') }}",
